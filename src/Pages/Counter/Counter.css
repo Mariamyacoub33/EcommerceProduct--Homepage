@@ -1,0 +1,35 @@
+.Counter{
+    width: 150px;
+    height: 50px;
+    background-color: hsl(227, 58%, 94%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    color: hsl(25, 85%, 82%);
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#counter{
+    color: hsl(220, 13%, 13%);
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 375px) {
+    .Counter{
+        width: 100px;
+        height: 40px;
+        flex-direction: row;
+        padding-bottom: 10px;
+        justify-content: space-around;
+    }
+    
+}

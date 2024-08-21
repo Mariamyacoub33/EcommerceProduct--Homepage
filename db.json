@@ -1,0 +1,16 @@
+{
+    "posts": [
+      { "id": "1",
+       "name": "Elevation", 
+       "price": 4,
+       "modul": "" },
+      { "id": "2", 
+      "name": "plan",
+      "price": 4, 
+      "modul": "" },
+      { "id": "2", 
+      "name": "villa", 
+      "price": 4,
+      "modul": "" }
+    ]
+  }

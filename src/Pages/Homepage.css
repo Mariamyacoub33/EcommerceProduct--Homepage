@@ -1,0 +1,19 @@
+#AllProducts{
+    display: flex;
+    flex-wrap: wrap;
+align-items: center;
+justify-content: space-around;
+gap: 10px;
+}
+
+
+.productbox{
+    width: 300px;
+    height: 100%;
+    border: 1px solid grey;
+}
+
+.imgproduct{
+width: 100px;
+height: 100px;
+}
